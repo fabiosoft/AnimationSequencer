@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AnimationSequencer_Example' do
+  pod 'AnimationSequencer', :path => '../'
+
+  target 'AnimationSequencer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
