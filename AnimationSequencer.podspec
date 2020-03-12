@@ -9,16 +9,11 @@
 Pod::Spec.new do |s|
   s.name             = 'AnimationSequencer'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AnimationSequencer.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'Very simple and scalable UIView animation extension without nested completion closures.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Very simple and scalable UIView animation extension without nested completion closures. It uses standard iOS api but wraps around a nicer look.
+
+Usally we make animations using system `animate()` method and completion block, but in my experience it's not scalable, very hard to read and it's hard to remove or add a new animation according to design specifications.
                        DESC
 
   s.homepage         = 'https://github.com/fabiosoft/AnimationSequencer'
@@ -29,14 +24,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.swift_versions = '5.1'
 
   s.source_files = 'AnimationSequencer/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'AnimationSequencer' => ['AnimationSequencer/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,0 +1,6 @@
+framework module AnimationSequencer {
+  umbrella header "AnimationSequencer-umbrella.h"
+
+  export *
+  module * { export * }
+}

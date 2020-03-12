@@ -1,0 +1,16 @@
+PODS:
+  - AnimationSequencer (0.1.0)
+
+DEPENDENCIES:
+  - AnimationSequencer (from `../`)
+
+EXTERNAL SOURCES:
+  AnimationSequencer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnimationSequencer: 105aebad30d3b6aa313590ef35934d4b0e459401
+
+PODFILE CHECKSUM: 47ad0c85b1a54de9b9c8f1e2fcca7a83ec33abab
+
+COCOAPODS: 1.8.4
